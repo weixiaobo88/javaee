@@ -1,10 +1,17 @@
 package com.tw.web;
+
+import java.io.*;
+import javax.servlet.http.*;
+import javax.servlet.*;
+
 import com.tw.core.Service;
 
-public class HelloServlet {
+public class HelloServlet extends HttpServlet {
+    public void doGet (HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 
-    public static void main(String[] args) {
-        Service service = new Service();
-        System.out.println(service.service());
+        PrintWriter out = res.getWriter();
+
+        out.println(new Service().service());
+        out.close();
     }
 }
