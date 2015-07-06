@@ -5,7 +5,7 @@
          xsi:schemaLocation="http:/java.sun.com/dtd/web-app_2_3.dtd">
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
-        <servlet-class>HelloServlet</servlet-class>
+        <servlet-class>com.tw.web.HelloServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
