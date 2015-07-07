@@ -10,6 +10,8 @@
 
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>
-        <url-pattern>/hello</url-pattern>
+        <url-pattern>/users</url-pattern>
     </servlet-mapping>
+
+
 </web-app>
