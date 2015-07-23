@@ -8,6 +8,8 @@
 * 数据库迁移的概念
 * gradle
 * git
+* <a href="#keymap">Intellij 中的快捷键</a>
+* <a href="#java">Java中的概念</a>
 * ...
 
 
@@ -148,7 +150,7 @@
 - AngularJS
 - 构建工具Gulp
 
-##Intellij 中的快捷键
+## <a name="keymap">Intellij 中的快捷键</a>
 
 - 文件操作
     * 新建类和包
@@ -168,7 +170,7 @@
 - 查看所有快捷键（打开preferences）    
 
 
-##Java中的概念
+## <a name="java">Java中的概念</a>
 
 - 继承（重载、覆盖）
 - 封装
