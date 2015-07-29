@@ -2,7 +2,7 @@
 ==============
 
 ##考察点
-* Spring + hibernate的配置和环境搭建
+* Spring + Hibernate的配置和环境搭建
 * Spring REST API的编写
 * Ajax应用，angular框架，Bootstrap使用
 * 数据库迁移的概念
@@ -79,7 +79,7 @@
 
 ### 第四阶段
 
-引入Spring 和 hibernate
+引入Spring 和 Hibernate
 
 知识点：
 - Spring MVC的概念和工作原理，ModelAndView
@@ -136,19 +136,26 @@
     
 ### 第七阶段
 
-引入前端知识体系
+在健身房管理系统的基础上引入前端知识体系
 
-1. 在健身房管理系统中选择一个页面使用Bootstrap来美化，选择两个页面使用CSS来美化，使用CSS时需要覆盖到的元素有：导航条、表格、表单、链接和button。
-2. 引入jQuery，将健身房管理系统中使用JavaScript的地方换成jQuery。
-3. 引入AngularJS
-4. 引入Gulp到项目中
+1. 选择一个页面使用Bootstrap来美化，选择两个页面使用CSS来美化，使用CSS时需要覆盖到的元素有：导航条、表格、表单、链接和button。
+2. 引入 jQuery，在展示课表的页面，使用jQuery完成课表更新的请求，使得课表的“更新”和“展示”在同一个页面完成。完成后将代码提交。
+3. 引入 AngularJS，在健身房管理系统中讲前台代码改成使用AngularJs的形式。
+4. 引入 Gulp到项目中
 
 知识点：
 - HTML & CSS，实现导航条、表格、表单、button、链接
-- jQuery
-- JavaScript基本语法、DOM操作与事件机制
-- AngularJS
+- jQuery 是什么，jQuery 的出现解决了什么问题，DOM操作，事件冒泡，事件代理
+- jQuery Ajax 怎么用
+- AngularJS 是什么，基本概念，工作原理
 - 构建工具Gulp
+
+### 第八阶段
+
+在健身房管理系统的基础上引入测试
+
+1. 对于DAO层的测试
+ 
 
 ## <a name="keymap">Intellij 中的快捷键</a>
 
