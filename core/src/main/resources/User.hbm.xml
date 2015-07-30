@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.tw.core.entity.User" table="user">
+        <id name="id" type="int" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="name" column="name" type="string"/>
+        <property name="gender" column="gender" type="string"/>
+        <property name="email" column="email" type="string"/>
+        <property name="age" column="age" type="int"/>
+    </class>
+</hibernate-mapping>
