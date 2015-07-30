@@ -10,5 +10,8 @@ dependencies {
     testCompile 'junit:junit:4.10'
     compile 'mysql:mysql-connector-java:5.1.20'
     compile 'commons-dbcp:commons-dbcp:1.4'
+    compile 'org.hibernate:hibernate-core:4.3.10.Final'
+    compile 'org.slf4j:slf4j-simple:1.7.12'
+
 }
 
