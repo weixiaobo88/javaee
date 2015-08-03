@@ -133,8 +133,16 @@
 - Test Double是什么，有几种，哪些情况下使用，mock & stub 的区别
 - Spring中的测试怎么写，Test Fixtures是什么，数据驱动测试（DDT，JUnit theories）是什么
 
-    
+
 ### 第七阶段
+
+在健身房管理系统的基础上引入测试
+
+1. 对于DAO层的测试
+2. 对于Controller的测试    
+
+
+### 第八阶段
 
 在健身房管理系统的基础上引入前端知识体系
 
@@ -150,11 +158,20 @@
 - AngularJS 是什么，基本概念，工作原理
 - 构建工具Gulp
 
-### 第八阶段
 
-在健身房管理系统的基础上引入测试
+### 第九阶段
 
-1. 对于DAO层的测试
+部署
+
+1. 将项目打包部署到Tomcat
+2. 下载一个Jenkins，每次提交都下载代码，编译，测试，形成一个war包
+3. 在Jenkins上按个按钮将某个build形成的war包部署到Tomcat
+
+
+### 其他
+
+用Jersey替代Spring MVC
+
  
 
 ## <a name="keymap">Intellij 中的快捷键</a>
